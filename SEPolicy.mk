@@ -47,3 +47,6 @@ ifneq (,$(filter sdm845 sdm710 sdm660 msm8937 msm8953 msm8996 msm8998, $(TARGET_
     BOARD_SEPOLICY_DIRS += $(SEPOLICY_PATH)/legacy/vendor/test
     endif
 endif
+
+-include device/custom/sepolicy/qcom/sepolicy.mk
+
